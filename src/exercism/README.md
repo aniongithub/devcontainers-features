@@ -7,7 +7,7 @@ A feature installing the Exercism CLI
 
 ```json
 "features": {
-    "ghcr.io/nils-geistmann/devcontainers-features/exercism:0": {}
+    "ghcr.io/aniongithub/devcontainers-features/exercism:0": {}
 }
 ```
 
@@ -45,4 +45,4 @@ When using bash, the packages `bash-completion` and `pkg-config` are installed.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/nils-geistmann/devcontainers-features/blob/main/src/exercism/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aniongithub/devcontainers-features/blob/main/src/exercism/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

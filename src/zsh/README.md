@@ -7,7 +7,7 @@ A feature to install and configure zsh with OhMyZsh
 
 ```json
 "features": {
-    "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {}
+    "ghcr.io/aniongithub/devcontainers-features/zsh:0": {}
 }
 ```
 
@@ -30,4 +30,4 @@ This feature currently only supports Debian based containers (where APT is used 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/nils-geistmann/devcontainers-features/blob/main/src/zsh/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aniongithub/devcontainers-features/blob/main/src/zsh/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

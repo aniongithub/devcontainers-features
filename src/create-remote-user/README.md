@@ -1,13 +1,13 @@
 
 # Create Remote User (create-remote-user)
 
-A to assert the configured remote user exists in the container
+A feature to assert the configured remote user exists in the container and optionally add them to additional groups
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/nils-geistmann/devcontainers-features/create-remote-user:0": {}
+    "ghcr.io/aniongithub/devcontainers-features/create-remote-user:0": {}
 }
 ```
 
@@ -19,6 +19,7 @@ A to assert the configured remote user exists in the container
 | addToSudo | If the user is newly created, add it to group sudo (if it exists) | boolean | true |
 | installSudo | Install sudo if it is not yet installed | boolean | true |
 | passwordLessSudo | Configures sudo to allow the remote user to elevate permissions without password | boolean | false |
+| additionalGroups | Comma-separated list of additional groups to add the user to (e.g., 'audio,video,docker') | string | - |
 
 ## OS Support
 
@@ -37,4 +38,4 @@ If no password is set, it is not possible to use `sudo`.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/nils-geistmann/devcontainers-features/blob/main/src/create-remote-user/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/aniongithub/devcontainers-features/blob/main/src/create-remote-user/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
